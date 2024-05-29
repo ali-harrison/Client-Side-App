@@ -130,7 +130,7 @@ mutation that makes PATCH requests to a specific location.
 
 ### 6. Delete events
 
-- [ ] Deleting an event will send an HTTP POST request which will hit your `POST /events/delete` route in `routes/events.ts`
+- [ ] Deleting an event will send an HTTP DELETE request which will hit your `DELETE /api/v1/events/:id` route in `routes/events.ts`
   <details style="padding-left: 2em">
     <summary>More about deleting an event</summary>
     
